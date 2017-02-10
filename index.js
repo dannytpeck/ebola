@@ -9,7 +9,7 @@ var driver = new webdriver.Builder()
 var username = 'USERNAME';
 var password = 'PASSWORD';
 
-driver.get('https://limeademorb.mywellmetrics.com/Home');
+driver.get('https://limeadedemorb.mywellmetrics.com/Home');
 
 // input username and password then click login button
 driver.findElement(By.name('ctl00$content$SiteThemeContentFragmentPage1$fragment_3526$ctl01$ctl00$LoginForm1$ctl06$username')).sendKeys(username);
